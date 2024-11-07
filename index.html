@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password generater</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section>
+        <div class="contain">
+            <h1>Generate a <br><span>Random Password</span></h1>
+            <div class="display">
+                <input class="pass" type="text" placeholder="Password" id="PasswordBox">
+                <button id="copyBtn"><i class="fa-regular fa-copy copy"></i></button>
+            </div>
+            <div class="flex">
+                <h5>Password Length</h5>
+                <input class="num" type="number" name="" id="Length">
+            </div>
+            <div class="flex">
+                <h5>Upper Case</h5>
+                <input type="checkbox" name="" id="UpperCase">
+            </div>
+            <div class="flex">
+                <h5>Lower Case</h5>
+                <input type="checkbox" name="" id="LowerCase">
+            </div>
+            <div class="flex">
+                <h5>Numbers</h5>
+                <input type="checkbox" name="" id="Numbers">
+            </div>
+            <div class="flex">
+                <h5>Special Symbols </h5>
+                <input type="checkbox" name="" id="Symbols">
+            </div>
+            <button type="button" id="btn">Generate Password</button>
+
+        </div>
+    </section>
+    <script src="logic.js">
+
+    </script>
+</body>
+
+</html>
